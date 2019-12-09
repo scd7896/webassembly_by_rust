@@ -15,4 +15,17 @@ fn main() {
 
     let arr = [5; 10];
     println!("배열 내용 {}", arr[0]);
+    let gg :String = "안녕하세요".to_string();
+    let test = test_fn(gg);
+    println!("리턴 받은 값은 : {}" , test);
+    println!("숫자 리턴 값은 : {}", number_return());
+}
+
+fn test_fn(st : String)-> String{
+    println!("문자열로는 어케 받누? {}", st);
+    return "난 김서버야".to_string();
+}
+
+fn number_return() -> i8{
+    return 3;
 }

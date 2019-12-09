@@ -1,0 +1,12 @@
+[package]
+name = "helloWorld"
+version = "0.1.0"
+authors = ["scd7896 <scd1212@naver.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+time = "0.1.2"
+regex = "0.1.41"
+rand = "0.3.14"

@@ -27,5 +27,6 @@ fn test_fn(st : String)-> String{
 }
 
 fn number_return() -> i8{
+    println!("testetset");
     return 3;
 }

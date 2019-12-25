@@ -9,7 +9,8 @@ fn main(){
     let mut guess = String::new();
     io::stdin().read_line(&mut guess).expect("라인읽기 실패");
     println!("입력한 스트링 값 : {}", guess);
-    testFn("안녕하세요")
+    testFn("안녕하세요");
+    println!("킹동 완성");
 }
 
 fn testFn(st){

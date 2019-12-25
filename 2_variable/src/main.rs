@@ -16,7 +16,7 @@ fn main() {
     let arr = [5; 10];
     println!("배열 내용 {}", arr[0]);
     let gg :String = "안녕하세요".to_string();
-    let test = test_fn(gg);
+    let test = String::from(test_fn(gg));
     println!("리턴 받은 값은 : {}" , test);
     println!("숫자 리턴 값은 : {}", number_return());
 }
